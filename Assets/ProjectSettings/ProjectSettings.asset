@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: d8a96bcd872b1f241bbc59ed4621d8d1
+  productGUID: 31c6b83dd65502a45a71f7c2c9631a43
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Platformer_MT_SB14_Alex
+  productName: platformer_MT_SB14
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -747,10 +747,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 97b30301-c278-4617-9e61-97f55362744c
+  cloudProjectId: d44de501-8779-4563-a099-ec7e4367c005
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Platformer_MT_SB14_Alex
+  projectName: platformer_MT_SB14
   organizationId: unity_b4e67d87d63ad507b3ca
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
