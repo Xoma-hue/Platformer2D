@@ -32,10 +32,10 @@ public class Enemy : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             // Якщо є скрипт здоров'я у гравця — нанести шкоду
-            PlayerHealth playerHealth = collision.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
+            PlayerHealth health = collision.GetComponent<PlayerHealth>();
+            if (health != null)
             {
-                playerHealth.TakeDamage(damage);
+                health.TakeDamage(damage);
             }
         }
     }

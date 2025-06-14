@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
@@ -20,9 +22,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
-            Debug.Log("Player Dead!");
-            // Можна додати сцену поразки або респавн
             Destroy(gameObject);
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
